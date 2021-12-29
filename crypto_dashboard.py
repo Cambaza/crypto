@@ -57,7 +57,7 @@ def get_data(symbol, start, end):
 
 start, end, symbol = get_input()
 df = get_data(symbol=symbol, start=start, end=end)
-print(df.index)
+
 crypto_name = get_crypto_name(symbol=symbol)
 
 fig = go.Figure(
