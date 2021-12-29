@@ -1,2 +1,3 @@
 penguins/
 iris/
+*.pyc
